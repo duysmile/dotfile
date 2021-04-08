@@ -9,4 +9,7 @@ Dotfile config on my machine
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 - reference: https://github.com/huytd/vim-config
 > git clone https://github.com/duysmile/dotfile/blob/main/init.vim ~/.config/nvim/
-- 
+- Open nvim, and run `:PlugInstall` to setup.
+
+### Tmux
+- `mv .tmux.conf ~/.tmux.conf`
