@@ -1,4 +1,4 @@
-# dotfile
+# dotfiles
 Dotfile config on my machine
 
 ### Install all configs
