@@ -26,6 +26,25 @@ git clone https://github.com/duysmile/dotfile/blob/main/.config/init.vim ~/.conf
 - Open nvim, and run `:PlugInstall` to setup.
 
 ### Tmux
+- Install tmux
+```bash
+brew install tmux
+```
+- Config tmux
 ```bash
 mv .tmux.conf ~/.tmux.conf
+```
+
+### Zsh
+- Install zsh
+```bash
+brew install zsh
+```
+- Install oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+- Config zsh
+```bash
+git clone https://github.com/duysmile/dotfile/blob/main/.zshrc ~/.zshrc
 ```
