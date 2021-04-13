@@ -26,4 +26,6 @@ git clone https://github.com/duysmile/dotfile/blob/main/.config/init.vim ~/.conf
 - Open nvim, and run `:PlugInstall` to setup.
 
 ### Tmux
-- `mv .tmux.conf ~/.tmux.conf`
+```bash
+mv .tmux.conf ~/.tmux.conf
+```
