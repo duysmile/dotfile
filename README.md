@@ -1,6 +1,14 @@
 # dotfile
 Dotfile config on my machine
 
+### Install all configs
+```bash
+git clone https://github.com/duysmile/dotfile.git
+cd dotfile
+chmod +x install.sh
+./install.sh
+```
+
 ### Neovim
 - Install vim
 > brew install neovim
