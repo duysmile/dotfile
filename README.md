@@ -11,12 +11,18 @@ chmod +x install.sh
 
 ### Neovim
 - Install vim
-> brew install neovim
+```bash
+brew install neovim
+```
 - Install vim-plug: [repo](https://github.com/junegunn/vim-plug)
-> sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
 - reference: https://github.com/huytd/vim-config
-> git clone https://github.com/duysmile/dotfile/blob/main/init.vim ~/.config/nvim/
+```bash
+git clone https://github.com/duysmile/dotfile/blob/main/.config/init.vim ~/.config/nvim/
+```
 - Open nvim, and run `:PlugInstall` to setup.
 
 ### Tmux
